@@ -1,0 +1,22 @@
+{
+  "name": "babel-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "babel src -d js",
+    "start": "http-server",
+    "lint": "eslint --ignore-path .gitignore",
+    "test": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "eslint": "^8.20.0",
+    "http-server": "^14.1.1",
+    "jest": "^28.1.3"
+  }
+}
